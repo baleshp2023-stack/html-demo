@@ -14,7 +14,7 @@ app: html-demo
 spec:
 containers:
 - name: html-demo
-image: <<dockerhus_username>>/html-demo:latest
+image:baleshp/html-demo:latest
 ports:
 - containerPort: 80
 ---
