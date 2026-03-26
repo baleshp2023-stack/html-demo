@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         // REPLACE with your actual Docker Hub username
-        DOCKER_IMAGE = "baleshp2023/html-demo:latest"
+        DOCKER_IMAGE = "baleshp/html-demo:latest"
     }
     stages {
         // We removed 'Clone Code' because Jenkins does it automatically
